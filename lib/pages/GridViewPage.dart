@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(GridViewPage());
-}
-
 class GridViewPage extends StatefulWidget {
   const GridViewPage({super.key});
 

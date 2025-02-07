@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(StackPage());
-}
-
 class StackPage extends StatefulWidget {
   const StackPage({super.key});
 

@@ -1,3 +1,4 @@
+import 'package:app_6/pages/RoutesPage.dart';
 import 'package:app_6/pages/homePage.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +12,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: homePage(),
+      routes: {
+        '/RoutesPage' : (context) => Routespage(),
+      },
     );
   }
 }

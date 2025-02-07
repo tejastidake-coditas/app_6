@@ -4,10 +4,7 @@ import 'GridViewPage.dart';
 import 'ListViewPage.dart';
 import 'StackPage.dart';
 import 'GesturePage.dart';
-
-void main() {
-  runApp(homePage());
-}
+import 'RoutesPage.dart';
 
 class homePage extends StatefulWidget {
   const homePage({super.key});
@@ -90,6 +87,21 @@ class _homePageState extends State<homePage> {
                                   builder: (context) => GesturePage()));
                         },
                         child: Text("GestureDetector"),
+                      )
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "Routes: ",
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold, fontSize: 20),
+                      ),
+                      ElevatedButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, '/RoutesPage');
+                        },
+                        child: Text("Routes"),
                       )
                     ],
                   ),

@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(GesturePage());
-}
-
 class GesturePage extends StatefulWidget {
   const GesturePage({super.key});
 
