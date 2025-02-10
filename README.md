@@ -1,16 +1,9 @@
-# app_6
+### app_6
 
-A new Flutter project.
+# Implementing most of the learning in single app
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![List View](https://github.com/tejastidake-coditas/app_6/blob/main/demo_screenshots/listview.jpg)
+![Grid View](https://github.com/tejastidake-coditas/app_6/blob/main/demo_screenshots/gridview.jpg)
+![Stack](https://github.com/tejastidake-coditas/app_6/blob/main/demo_screenshots/stack.jpg)
+![Gesture Detector](https://github.com/tejastidake-coditas/app_6/blob/main/demo_screenshots/gesturedetector.jpg)
+![Routes](https://github.com/tejastidake-coditas/app_6/blob/main/demo_screenshots/routes.jpg)
