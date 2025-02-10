@@ -145,6 +145,16 @@ class _homePageState extends State<homePage> {
                         Navigator.push(context, MaterialPageRoute(builder: (context) => EditText()));
                       }, child: Text("Text Field"))
                     ],
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "To Do App: ", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                      ),
+                      ElevatedButton(onPressed: () {
+                        Navigator.pushNamed(context, '/toDoApp');
+                      }, child: Text("ToDo App"))
+                    ],
                   )
                 ]))));
   }
