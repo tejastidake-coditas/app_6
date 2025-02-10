@@ -1,4 +1,5 @@
 import 'package:app_6/pages/editText.dart';
+import 'package:app_6/pages/windowSize.dart';
 import 'package:flutter/material.dart';
 
 import 'GridViewPage.dart';
@@ -154,6 +155,16 @@ class _homePageState extends State<homePage> {
                       ElevatedButton(onPressed: () {
                         Navigator.pushNamed(context, '/toDoApp');
                       }, child: Text("ToDo App"))
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "ScreenSize: ", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                      ),
+                      ElevatedButton(onPressed: () {
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => WindowSize()));
+                      }, child: Text("ScreenSize"))
                     ],
                   )
                 ]))));
