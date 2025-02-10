@@ -113,6 +113,26 @@ class _homePageState extends State<homePage> {
                         Navigator.pushNamed(context, '/drawerPage');
                       }, child: Text("Drawer"))
                     ],
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "BottomNavigationBar: ", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                      ),
+                      ElevatedButton(onPressed: () {
+                        Navigator.pushNamed(context, '/bottomNav');
+                      }, child: Text("BottomNav"))
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "Counter App: ", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                      ),
+                      ElevatedButton(onPressed: () {
+                        Navigator.pushNamed(context, '/counterApp');
+                      }, child: Text("CounterApp"))
+                    ],
                   )
                 ]))));
   }

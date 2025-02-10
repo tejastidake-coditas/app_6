@@ -2,6 +2,8 @@ import 'package:app_6/pages/RoutesPage.dart';
 import 'package:app_6/pages/drawerPage.dart';
 import 'package:app_6/pages/homePage.dart';
 import 'package:flutter/material.dart';
+import 'package:app_6/pages/BottomNavPage.dart';
+import 'package:app_6/pages/counterApp.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,6 +20,8 @@ class MyApp extends StatelessWidget {
       routes: {
         '/RoutesPage' : (context) => Routespage(),
         '/drawerPage' : (context) => DrawerPage(),
+        '/bottomNav' : (context) => BottomNavPage(),
+        '/counterApp' : (context) => CounterApp(),
       },
     );
   }
