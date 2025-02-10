@@ -1,3 +1,4 @@
+import 'package:app_6/pages/editText.dart';
 import 'package:flutter/material.dart';
 
 import 'GridViewPage.dart';
@@ -132,6 +133,16 @@ class _homePageState extends State<homePage> {
                       ElevatedButton(onPressed: () {
                         Navigator.pushNamed(context, '/counterApp');
                       }, child: Text("CounterApp"))
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        "TextField: ", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                      ),
+                      ElevatedButton(onPressed: () {
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => EditText()));
+                      }, child: Text("Text Field"))
                     ],
                   )
                 ]))));
