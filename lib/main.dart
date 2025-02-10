@@ -1,4 +1,5 @@
 import 'package:app_6/pages/RoutesPage.dart';
+import 'package:app_6/pages/drawerPage.dart';
 import 'package:app_6/pages/homePage.dart';
 import 'package:flutter/material.dart';
 
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
       home: homePage(),
       routes: {
         '/RoutesPage' : (context) => Routespage(),
+        '/drawerPage' : (context) => DrawerPage(),
       },
     );
   }

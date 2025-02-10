@@ -4,7 +4,6 @@ import 'GridViewPage.dart';
 import 'ListViewPage.dart';
 import 'StackPage.dart';
 import 'GesturePage.dart';
-import 'RoutesPage.dart';
 
 class homePage extends StatefulWidget {
   const homePage({super.key});
@@ -105,6 +104,16 @@ class _homePageState extends State<homePage> {
                       )
                     ],
                   ),
+                  Row(
+                    children: [
+                      Text(
+                        "Drawer: ", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                      ),
+                      ElevatedButton(onPressed: () {
+                        Navigator.pushNamed(context, '/drawerPage');
+                      }, child: Text("Drawer"))
+                    ],
+                  )
                 ]))));
   }
 }
