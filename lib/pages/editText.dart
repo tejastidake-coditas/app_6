@@ -30,6 +30,7 @@ class _EditTextState extends State<EditText> {
                       controller: textEditingController,
                       decoration: InputDecoration(
                           hintText: "Enter your first name",
+                          border: OutlineInputBorder(),
                           icon: Icon(Icons.account_circle))),
                 ),
                 ElevatedButton(
